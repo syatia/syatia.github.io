@@ -1,0 +1,274 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*général*/
+
+body{
+    background-color: #f8f9fb;
+    color: #65617a;
+    font-family:  'Roboto', sans-serif;;
+}
+
+ul{
+list-style: none;
+display: flex;
+float: right;
+}
+
+li{
+    padding-left: 10px;
+    margin-right: 50px;
+    margin-top: -15px;
+   
+}
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 40px;
+    font-family: 'Oswald', sans-serif;;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* header*/
+
+.nav{
+    padding-top: 10px;
+    padding-left: 60px;
+    font-weight: bold;
+    
+    
+    
+    
+}
+
+.button{
+    padding-top: 30px;
+    font-weight: bold;
+}
+button{
+   
+    height: 20px;
+    width: 20px;
+    background-color: #ed4a4b;
+    border: none;
+}
+.h2land{
+    padding-top: 90px;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;;
+}
+
+.discover{
+    display: block;
+    padding-left: 60px;
+}
+.item-header{
+    position: relative;
+    margin-bottom: 5px;
+
+}
+
+.imgdiver{
+    position: absolute;
+
+    top: -15%;
+    left: 20%;
+}
+
+.texthead{
+    position: absolute;
+    left: 70%;
+    top:50%;
+    text-decoration: underline;
+
+}
+
+.aur{
+    font-family:'Oswald', sans-serif ;
+    letter-spacing: 3px;
+}
+
+
+/* main card */
+
+.item-card{
+    margin-top: 70px;
+    padding-left: 60px;
+    display: flex;
+    height: 250px;
+    margin-bottom: 50px;
+    padding-top: 20PX;
+}
+
+.h2card{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.card1,.card2,.card3{
+    background-color: white;
+    margin-left: 30px;
+}
+
+.imgcard{
+    width: 200px;
+    height: 130px;
+    border-radius: 2%;
+    
+}
+
+.textcard{
+    padding-left: 20px;
+    margin-top: 5px;
+    
+}
+.titlecard{
+    font-weight: bold;
+    font-family:'Oswald', sans-serif ;
+    
+    
+
+}
+
+.explo{
+    text-decoration: underline;
+    font-weight: bold;
+    font-family:'Oswald', sans-serif ;
+    margin-top: 60px;
+    
+}
+
+.desert{
+    margin-left: 30px;
+}
+
+.item-main1{
+    padding-left: 60px;
+    display: flex;
+   
+
+}
+
+.nordic{
+    margin-left: 40px;
+}
+.nord{
+    font-weight: bold;
+    float: left;
+    font-family:'Oswald', sans-serif ;
+    text-decoration: underline;
+    font-size: 2em;
+    padding-right: 20px;
+
+}
+
+.from{
+    margin-top: 10px;
+}
+
+.pict{
+    display: flex;
+    margin-top: 200px;
+}
+
+.imgmain1{
+    height: 200px;
+    width: 200px;
+    padding-left:20px ;
+}
+
+.hrcard{
+   
+        margin-right: 80%;
+        background-color: red;
+        color: red;
+        height: 0.2vh;
+        border: none;
+}
+
+/* main 2 adventure*/
+
+.item-main2{
+    margin-top: 150px;
+    padding-left: 60px;
+    display: flex;
+}
+.h2adv{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.sociaux{
+    list-style: none;
+    margin-top: 260px;
+}
+
+.mou{
+    margin-left: 70px;
+    line-height: 2;
+}
+
+h3{
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.maind{
+    margin-top: 50px;
+}
+
+.find{
+    margin-top: 90px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.item-footer{
+    display: flex;
+    margin-top: 120px;
+    border-top: solid 1px gray;
+}
+
+.ulfoot{
+    list-style: none;
+    float: left;
+    margin-left: 15%;
+    display: block;
+    padding-top: 60px
+
+}
+.lifoot{
+    padding-top: 20px;
+}
+
+.brand{
+    width: 300px;
+}
